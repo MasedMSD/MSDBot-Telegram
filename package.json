@@ -1,39 +1,43 @@
 {
-    "name": "msdbot-telegram",
-    "version": "0.0.0",
-    "description": "💫┆Powerful Multifunctional Telegram Bot",
-    "license": "Apache-2.0",
-    "private": true,
-    "contributors": [
-        "MasedMSD"
-    ],
-    "keywords": [
-        "telegraf",
-        "telegrambot"
-    ],
-    "scripts": {
-        "start": "ts-node src/index.ts"
-    },
-    "homepage": "https://github.com/MasedMSD/MSDBot-Telegram.git",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/MasedMSD/MSDBot-Telegram.git"
-    },
-    "bugs": {
-        "url": "https://github.com/MasedMSD/MSDBot-Telegram/issues"
-    },
-    "engines": {
-        "node": ">=16.9.0"
-    },
-    "packageManager": "yarn@3.5.1",
-    "devDependencies": {
-        "@types/dotenv": "^8.2.0",
-        "@types/glob": "^8.1.0",
-        "@types/node": "^20.2.5",
-        "dotenv": "^16.0.3",
-        "glob": "^10.2.6",
-        "ts-node": "^10.9.1",
-        "tslib": "^2.5.2",
-        "typescript": "^5.0.4"
-    }
+	"name": "msdbot-telegram",
+	"version": "0.0.0",
+	"description": "💫┆Powerful Multifunctional Telegram Bot",
+	"license": "Apache-2.0",
+	"private": true,
+	"contributors": [
+		"MasedMSD"
+	],
+	"keywords": [
+		"telegraf",
+		"telegrambot"
+	],
+	"scripts": {
+		"start": "ts-node src/index.ts"
+	},
+	"homepage": "https://github.com/MasedMSD/MSDBot-Telegram.git",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MasedMSD/MSDBot-Telegram.git"
+	},
+	"bugs": {
+		"url": "https://github.com/MasedMSD/MSDBot-Telegram/issues"
+	},
+	"engines": {
+		"node": ">=16.9.0"
+	},
+	"packageManager": "yarn@3.5.1",
+	"devDependencies": {
+		"@types/dotenv": "^8.2.0",
+		"@types/glob": "^8.1.0",
+		"@types/node": "^20.2.5"
+	},
+	"dependencies": {
+		"dotenv": "^16.0.3",
+		"glob": "^10.2.6",
+		"telegraf": "^4.12.2",
+		"ts-node": "^10.9.1",
+		"tslib": "^2.5.2",
+		"typegram": "^5.0.0",
+		"typescript": "^5.0.4"
+	}
 }
