@@ -21,6 +21,6 @@
 		"target": "ESNext"
 	},
 
-	"include": ["src"],
+	"include": ["src", "config"],
 	"exclude": ["dist", "**/dist/*", "node_modules", "**/node_modules/*"]
 }
