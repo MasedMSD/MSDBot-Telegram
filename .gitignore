@@ -1,0 +1,27 @@
+# Packages
+node_modules
+
+# Log files
+logs
+*.log
+npm-debug.log*
+
+# Dist
+dist
+dist-docs
+
+# Misc
+docs
+out
+
+# yarn
+.pnp.*
+.yarn/*
+
+# Cache
+.prettiercache
+.eslintcache
+
+# Env
+.env
+.env.test

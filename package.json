@@ -1,0 +1,29 @@
+{
+    "name": "msdbot-telegram",
+    "version": "0.0.0",
+    "description": "💫┆Powerful Multifunctional Telegram Bot",
+    "license": "Apache-2.0",
+    "private": true,
+    "contributors": [
+        "MasedMSD"
+    ],
+    "keywords": [
+        "telegraf",
+        "telegrambot"
+    ],
+    "scripts": {
+        "start": "ts-node src/index.ts"
+    },
+    "homepage": "https://github.com/MasedMSD/MSDBot-Telegram.git",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MasedMSD/MSDBot-Telegram.git"
+    },
+    "bugs": {
+        "url": "https://github.com/MasedMSD/MSDBot-Telegram/issues"
+    },
+    "engines": {
+        "node": ">=16.9.0"
+    },
+    "packageManager": "yarn@3.5.1"
+}

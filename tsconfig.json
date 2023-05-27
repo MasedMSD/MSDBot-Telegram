@@ -1,0 +1,26 @@
+{
+	// https://www.typescriptlang.org/tsconfig
+	"compilerOptions": {
+		"strict": true,
+		"noUncheckedIndexedAccess": true,
+		"noUnusedParameters": true,
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
+		"allowSyntheticDefaultImports": true,
+
+		"module": "CommonJS",
+		"moduleResolution": "node",
+
+		"outDir": "./dist",
+		"newLine": "lf",
+		"esModuleInterop": true,
+		"removeComments": false,
+		"noImplicitThis": true,
+
+		"lib": ["ESNext"],
+		"target": "ESNext"
+	},
+
+	"include": ["src"],
+	"exclude": ["dist", "**/dist/*", "node_modules", "**/node_modules/*"]
+}

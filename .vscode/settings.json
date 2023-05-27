@@ -1,0 +1,34 @@
+{
+	"npm.packageManager": "yarn",
+
+	"files.insertFinalNewline": true,
+	"files.eol": "\n",
+
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true,
+		"source.organizeImports": false
+	},
+
+	"files.exclude": {
+		// Packages
+		"node_modules": true,
+		"yarn.lock": true,
+
+		// Github
+		".gitattributes": true,
+		".github": true,
+
+		// Prettier
+		".prettierignore": true,
+		".prettierrc.json": true,
+
+		// Misc Files
+		"LICENSE": true,
+		"README.md": true
+	},
+
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	}
+}
