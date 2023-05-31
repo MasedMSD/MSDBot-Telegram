@@ -8,9 +8,9 @@ export default new Handler({
 	run: async ({ client }) => {
 		client.on(callbackQuery("data"), async (ctx) => {
 			const button = client.inline_buttons.find((button) => {
-				if (typeof button.name === "string") return button.name.startsWith(ctx.callbackQuery.data);
+				if (typeof button.name === "string") return ctx.callbackQuery.data.startsWith(button.name);
 				if (typeof button.name === "object")
-					return button.name.find((name) => name.startsWith(ctx.callbackQuery.data));
+					return button.name.find((name) => ctx.callbackQuery.data.startsWith(name));
 			});
 
 			if (!button) return;
